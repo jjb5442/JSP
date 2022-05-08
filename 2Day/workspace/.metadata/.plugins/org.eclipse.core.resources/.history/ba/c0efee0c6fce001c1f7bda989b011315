@@ -1,0 +1,13 @@
+package JDBC;
+
+import java.sql.SQLException;
+
+public class JDBC_Main {
+
+	public static void main(String[] args) 
+			throws ClassNotFoundException,SQLException {
+		//JDBC Driver loading
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+	}
+
+}
