@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<font color="purple">보라색 색상 지정!</font><br/>
+	<!-- size : 1 ~ 7(숫자가 클수록 글자 크기가 커짐) -->
+	<font color="red" size="3">빨간색 색상 지정!(size : 3)</font><br/>
+	<font color="blue" size="7">노란색 색상 지정!(size : 7)</font><br/>
+</body>
+</html>

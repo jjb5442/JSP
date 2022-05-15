@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	input01- text<br>
+	<!-- type : input태그가 받을 정보의 타입을 설정 -->
+	<!-- text : 문자 -->
+	<!-- size : input태그의 너비를 설정 -->
+	<!-- maxlength : input태그 최대 입력 글자 수 -->
+	<!-- value : 초기값 지정-->
+	<input type="text" size="30" maxlength="20" value="010-1234-1234"><br/>
+	<!-- placeholder : input태그에 입력할 데이터에 대한 힌트를 출력 -->
+	<input type="text" size="30" maxlength="20" placeholder="전화번호 입력"><br/>
+	<hr/>
+	
+	input02 - password<br/>
+	<!-- password : 비밀번호 입력 타입 -->
+	<input type="password" size="30" maxlength="20" placeholder="비밀번호 입력"><br/>
+	<hr/>
+	
+	<!-- checkbox : 항목을 선택하는 타입 -->
+	input03 - checkbox<br/>
+	<input type="checkbox" value="C">C<br/>
+	<!-- checked : 기본값이 체크가 활성화된 상태로 지정 -->
+	<input type="checkbox" value="Java" checked>Java<br/>
+	<input type="checkbox" value="Python">Python<br/>
+	<hr/>
+	
+	<!-- radio : 여러 항목중 하나만 선택이 가능한 타입 여러 항목을 하나의 name으로 통일 해주어야 한다. -->
+	<!-- name : 그룹을 통일할 때 사용하는 속성 -->
+	input04 - radio<br/>
+	<input type="radio" name="language" value="C++">C<br/>
+	<input type="radio" name="language" value="Kotlin">Kotlin<br/>
+	<input type="radio" name="language" value="Go" checked>Go<br/>
+	<hr/>
+	
+	<!-- file : 파일을 브라우저에 업로드 할때 사용하는 타입 -->
+	input05 - file<br/>
+	<input type="file">
+	<hr/>
+	
+	<!-- button : input 태그를 버튼 타입으로 수정 -->
+	input06 - button<br/>
+	<input type="button" value="버튼!"><br/>
+	<hr/>
+	
+	<!-- image : input태그를 이미지 타입으로 수정 -->
+	input07 - image<br/>
+	<input type="image" src="resource/images/고양이2.gif"><br/>
+	<hr/>
+	
+	<!-- textarea : 영역을 지정하여 그 안에 글을 쓸 수 있는 태그 -->
+	<!-- rows : 행 수 지정 -->
+	<!-- cols : 열 수 지정 -->
+	textarea<br/>
+	<textarea rows="10" cols="70"></textarea>
+	<hr/>
+	
+	<!-- select : 여러 항목중 선택하는 태그 -->
+	select01<br>
+	<select>
+		<option value="C">C</option>
+		<option value="C++">C++</option>
+		<option value="Java">Java</option>
+		<option value="C#">C#</option>
+		<option value="Python">Python</option>
+		<option value="Kotlin">Kotlin</option>
+	</select>
+	<hr/>
+	
+	
+	select02 - multiple<br>
+	<select multiple size="6">
+		<option value="C">C</option>
+		<option value="C++">C++</option>
+		<option value="Java">Java</option>
+		<option value="C#">C#</option>
+		<option value="Python">Python</option>
+		<option value="Kotlin">Kotlin</option>
+	</select>
+	<hr/>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	input01- text<br>
+	<!-- type : input태그가 받을 정보의 타입을 설정 -->
+	<!-- text : 문자 -->
+	<input type="text" size="20" maxlength="10">
+</body>
+</html>

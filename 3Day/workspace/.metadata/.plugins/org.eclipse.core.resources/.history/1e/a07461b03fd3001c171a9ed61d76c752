@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table align="center" border="5" bordercolor="red" cellspacing="2">
+		<caption>자동차 정기 점검</caption>
+	</table>
+</body>
+</html>

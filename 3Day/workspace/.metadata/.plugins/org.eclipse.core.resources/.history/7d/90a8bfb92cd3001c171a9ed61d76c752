@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div align="left">
+		div Group1<br/>
+		div Group1<br/>
+		div Group1<br/>
+	</div>
+<body>
+	<div align="center">
+		div Group1<br/>
+		div Group1<br/>
+		div Group1<br/>
+	</div>
+<body>
+	<div align="right">
+		div Group1<br/>
+		div Group1<br/>
+		div Group1<br/>
+	</div>
+</body>
+</html>

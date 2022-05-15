@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	input01- text<br>
+	<!-- type : input태그가 받을 정보의 타입을 설정 -->
+	<!-- text : 문자 -->
+	<!-- size : input태그의 너비를 설정 -->
+	<!-- maxlength : input태그 최대 입력 글자 수 -->
+	<!-- value : 초기값 지정-->
+	<input type="text" size="30" maxlength="20" value="010-1234-1234"><br/>
+	<!-- placeholder : input태그에 입력할 데이터에 대한 힌트를 출력 -->
+	<input type="text" size="30" maxlength="20" placeholder="전화번호 입력"><br/>
+	<hr/>
+</body>
+</html>
+
+
+
+
+
+
+
+

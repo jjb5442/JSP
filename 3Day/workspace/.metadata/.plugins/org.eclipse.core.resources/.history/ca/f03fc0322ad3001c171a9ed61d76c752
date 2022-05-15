@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>홈페이지 제목</h1>
+	<hr><!-- 줄 긋는 태그 -->
+	<h3>width = 50</h3>
+	<hr width="50">
+	<h3>width = 50 noshade</h3>
+	<hr width="50" noshade>
+</body>
+</html>
