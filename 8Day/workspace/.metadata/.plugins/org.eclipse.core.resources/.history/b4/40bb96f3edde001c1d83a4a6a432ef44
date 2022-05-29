@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:include page="top.jsp"></jsp:include>
+	<div class="container">
+		<div class="row">
+			<table class="table table-striped" style="text-align: center; border: 1px solid black;">
+				<thead>
+					<tr style="background-color: #eeeeee; text-align: center;">
+						<th>번호</th>
+						<th>제목</th>
+						<th>작성자</th>
+						<th>작성일</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Test</td>
+						<td>ITBank</td>
+						<td>2022/05/29</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
+

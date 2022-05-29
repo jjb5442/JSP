@@ -1,0 +1,58 @@
+package Member;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class DAO {
+	private final String TABLE_NAME = "java_bean_member";
+	private final String COL_NO = "no";
+	private final String COL_NAME = "name";
+	private final String COL_ID = "id";
+	private final String COL_PASSWORD = "password";
+	private final String COL_BIRTHDAY = "birthday";
+	private final String COL_ADDRESS = "address";
+	private final String COL_EMAIL = "email";
+	
+	private final String CREATE_TABLE = "create table " + TABLE_NAME + "(" + 
+										COL_NO + 		" number primary key, " + 
+										COL_NAME + 		" varchar2(30) not null, " + 
+										COL_ID + 		" varchar2(30) unique, " + 
+										COL_PASSWORD + 	" varchar2(30) not null, " + 
+										COL_BIRTHDAY + 	" date not null, " + 
+										COL_ADDRESS + 	" varchar2(30) not null, " + 
+										COL_EMAIL + 	" varchar2(30) not null)";
+	private final String SEQUENCE_NAME = TABLE_NAME + "_seq";
+	private final String CREATE_SEQUENCE = "create sequence " + SEQUENCE_NAME;
+	private final String USE_SEQUENCE = SEQUENCE_NAME + ".nextval";
+	
+	private Connection con = null;
+	private final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+	private final String USER = "c##jsp05";
+	private final String PASSWORD = "jsp";
+	
+	public DAO() throws ClassNotFoundException,SQLException {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		con = DriverManager.getConnection(URL,USER,PASSWORD);
+	}
+	
+	private void CreateTable() {
+		
+	}
+	private boolean CheckTable() throws SQLException {
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		ps = con.prepareStatement("select tname trom tab");
+		rs = ps.executeQuery();
+		while(rs.next()) {
+			if(rs.getString("tname").equals(TABLE_NAME.toUpperCase())) {
+				System.out.println("Find Table : " + TABLE_NAME);
+			}
+		}
+	}
+	
+	
+
+}

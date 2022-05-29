@@ -1,0 +1,14 @@
+package Member;
+
+import java.util.Date;
+
+public class DTO {
+	private int 	no;
+	private String 	id;
+	private String 	password;
+	private String 	name;
+	private Date 	birthday;
+	private String 	address;
+	private String 	email;
+
+}

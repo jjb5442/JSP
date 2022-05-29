@@ -1,0 +1,11 @@
+package Board;
+
+import java.sql.Date;
+
+public class DTO {
+	private int no;
+	private String title;
+	private String content;
+	private String id;
+	private Date regist;
+}

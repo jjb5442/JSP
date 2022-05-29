@@ -1,0 +1,22 @@
+<%@page import="Board.DTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:useBean id="dao" class="Board.DAO" scope="page"></jsp:useBean>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%! DTO board = null; %>
+	<% if(request.getParameter("no") == null){ %>
+		<script type="text/javascript">location.href='board.jsp'</script>
+	<% }else{
+			board = dao.getBoard(Integer.parseInt(request.getParameter("no")));
+			if(board == null){%>
+				<script type="text/javascript">location.href='board.jsp'</script>
+	<% 		} 
+	   }%>
+</body>
+</html>

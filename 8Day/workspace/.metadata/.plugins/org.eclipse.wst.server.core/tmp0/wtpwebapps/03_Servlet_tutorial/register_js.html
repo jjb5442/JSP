@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/* document : 현재 작업 문서 */
+	/* var : java script 자료형 */
+	function validate(){
+		var form_register = document.form_register;
+		var password = form_register.password.value;/* 태그명.value : 태그에 저장된 값 */
+		var password_compare = form_register.passwordcm.value;
+		
+		if(password == password_compare)
+			form_register.submit();/* submit() : input type submit과 동일한 기능 */
+		else
+			alert("비밀번호가 일치하지 않습니다.");/* alert : 브라우저에서 사용하는 메세지창 */
+	}
+</script>
+</head>
+<body>
+	<form name="form_register" action="Register" method="post">
+		<b>아이디 : </b>
+		<!-- required : 데이터가 무조건 입력되어야 한다. -->
+		<input type="text" 		name="id" 			required><br/><br/>
+		<b>비밀번호 : </b>
+		<input type="password" 	name="password" 	required><br/><br/>
+		<b>비밀번호 확인 : </b>
+		<input type="password" 	name="passwordcm" 	required><br/><br/>
+		
+		<b>관심 언어 : </b>
+		<input type="checkbox" name="language" value="C++">C&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="language" value="Java">Java&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="language" value="Swift">Swift&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="language" value="Python">Python&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="language" value="Kotlin">Kotlin&nbsp;&nbsp;&nbsp;
+		<br/><br/>
+		
+		<b>성별 : </b>
+		<input type="radio" name="gender" value="man" checked>남자
+		<input type="radio" name="gender" value="woman">여자
+		<br/><br/>
+		
+		<b>직종</b>	
+		<select name="job">
+			<option value="Game">게임프로그래머</option>
+			<option value="Web">웹프로그래머</option>
+			<option value="Android">안드로이드프로그래머</option>
+			<option value="IOS">IOS프로그래머</option>
+		</select>
+		<br/><br/>
+		<input type="button" onclick="validate()" value="회원가입">&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="초기화">&nbsp;&nbsp;&nbsp;
+	</form>
+</body>
+</html>
+
+
+

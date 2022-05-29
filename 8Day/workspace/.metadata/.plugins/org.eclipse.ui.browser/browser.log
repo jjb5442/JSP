@@ -1,0 +1,18 @@
+
+5월 14, 2022 10:39:27.809 NEW SESSION
+5월 14, 2022 10:39:27.810 [16204:11296:0514/103927.807:ERROR:device_event_log_impl.cc(214)] [10:39:27.806] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5월 14, 2022 10:40:24.777 [16204:14472:0514/104024.776:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 14, 2022 13:16:52.485 [16204:11296:0514/131652.484:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 14, 2022 13:16:52.486 [16204:11296:0514/131652.484:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 14, 2022 13:16:52.486 [16204:11296:0514/131652.484:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+5월 15, 2022 12:13:35.917 NEW SESSION
+5월 15, 2022 12:13:35.917 [3564:10908:0515/121335.916:ERROR:device_event_log_impl.cc(214)] [12:13:35.916] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5월 15, 2022 12:14:32.824 [3564:3084:0515/121432.824:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 15, 2022 12:17:50.258 [7728:6816:0515/121750.257:ERROR:device_event_log_impl.cc(214)] [12:17:50.258] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5월 15, 2022 12:18:48.64 [7728:13436:0515/121848.064:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 15, 2022 12:25:41.146 [14348:14996:0515/122541.146:ERROR:device_event_log_impl.cc(214)] [12:25:41.146] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5월 15, 2022 12:25:48.260 [8688:1456:0515/122548.260:ERROR:device_event_log_impl.cc(214)] [12:25:48.260] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+5월 15, 2022 12:26:45.105 [8688:5388:0515/122645.105:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+5월 15, 2022 13:07:30.504 [8688:1456:0515/130730.504:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 15, 2022 13:08:07.634 [8688:1456:0515/130807.634:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost

@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:include page="top.jsp"></jsp:include>
+	<div class="container">
+		<div class="row">
+			<table class="table table-striped" style="text-align: center; border: 1px solid black;">
+				<thead>
+					<tr style="background-color: #eeeeee;">
+						<th style="text-align: center;">번호</th>
+						<th style="text-align: center;">제목</th>
+						<th style="text-align: center;">작성자</th>
+						<th style="text-align: center;">작성일</th>
+					</tr>
+				</thead>
+				<tbody>
+					<% for(int i = 1 ; i <= 10 ; i++) {%>
+						<tr>
+							<td><%= i %></td>
+							<td>Test<%= i %></td>
+							<td>ITBank<%= i %></td>
+							<td>2022/05/29</td>
+						</tr>
+					<% } %>
+				</tbody>
+				<a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
+

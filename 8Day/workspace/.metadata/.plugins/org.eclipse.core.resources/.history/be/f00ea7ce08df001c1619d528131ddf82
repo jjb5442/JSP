@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<% 
+	request.setCharacterEncoding("utf-8");
+	response.setCharacterEncoding("utf-8");
+%>
+<jsp:useBean id="dao" class="Board.DAO" scope="page"></jsp:useBean>
+<jsp:useBean id="board" class="Board.DTO" scope="page"></jsp:useBean>
+<jsp:setProperty property="title" 	name="board"/>
+<jsp:setProperty property="content" name="board"/>
+<jsp:setProperty property="id" 		name="board"	value='<%=session.getAttribute("id") %>'/>
+<jsp:setProperty property="no" 		name="board"	value='<%=request.getParameter("no") %>'/>
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+</body>
+</html>

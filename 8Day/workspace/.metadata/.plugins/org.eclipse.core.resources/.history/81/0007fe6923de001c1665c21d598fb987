@@ -1,0 +1,13 @@
+package Member;
+
+public class DAO {
+	private final String TABLE_NAME = "java_bean_member";
+	private final String COL_NO = "no";
+	private final String COL_NAME = "name";
+	private final String COL_ID = "id";
+	private final String COL_PASSWORD = "password";
+	private final String COL_BIRTHDAY = "birthday";
+	private final String COL_ADDRESS = "address";
+	private final String COL_EMAIL = "emaul";
+
+}

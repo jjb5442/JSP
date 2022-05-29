@@ -1,0 +1,6 @@
+package Board;
+
+public class DTO {
+	private int no;
+	private String
+}
